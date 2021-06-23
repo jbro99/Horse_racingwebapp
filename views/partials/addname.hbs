@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/horselist/{{horselist.id}}/addname" method="POST">
+  <div class="four fields">
+    <div class="field">
+      <label>Name</label>
+      <input placeholder="Horse Name" type="text" name="name" autofocus required>
+    </div>
+    <div class="field">
+      <label>Trainer</label>
+      <input placeholder="Trainer" type="text" name="trainer" autofocus required>
+    </div>
+    <div class="field">
+      <label>Jockey</label>
+      <input placeholder="Jockey/Rider" type="text" name="jockey" autofocus required>
+    </div>
+    <div class="field">
+      <label>Distance</label>
+      <input placeholder="Distance" type="text" name="distance" autofocus required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Horse Details</button>
+</form>

@@ -1,0 +1,25 @@
+ {{#each messages}}
+ 
+    <div class="ui segment comment">
+
+   <div class="metadata">
+    {{formatDate date}}
+    </div>
+
+        <div class="avatar">
+          <i class="ui green large comment alternate icon"></i>
+        </div>
+        <div class="text">
+          {{fullname}}
+        </div>
+        <div class="text" id="comText">
+          {{messagetext}}
+        </div>
+
+
+
+    </div>
+{{/each}}
+</div>
+
+

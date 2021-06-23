@@ -1,0 +1,31 @@
+{"developers":
+  [
+    {
+      "name":"Gordon",
+      "fullname":"Gordon Elliot",
+      "image":"https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2Fgordon.jpg?v=1584296098097",
+      "joined":2003,
+      "job":"Trainer",
+      "city":"Waterford",
+      "mates":90
+    },
+    {
+      "name":"Willie",
+      "fullname":"Willie Mullins",
+      "image":"https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2FWillie.jpg?v=1584295974253",
+      "joined":2002,
+      "job":"Trainer",
+      "city":"Carlow",
+      "mates":105
+    },
+    {
+      "name":"Paul",
+      "fullname":"Paul Nicholls",
+      "image":"https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2Fpaul.gif?v=1584296364960",
+      "joined":1997,
+      "job":"Trainer",
+      "city":"Tipperary",
+      "mates":200
+    }
+  ]
+}
