@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "firstName": "justin",
+      "lastName": "brophy",
+      "email": "justin@brophy.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1554222414/paagum22pnsdeesrtwr0.jpg"
+    },
+    {
+      "firstName": "aidan",
+      "lastName": "brophy",
+      "email": "aidan@brophy.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1554224211/jlwf1u9bragzvc5pkzho.jpg"
+    },
+    {
+      "firstName": "Betty",
+      "lastName": "Brophy",
+      "email": "betty@brophy.com",
+      "password": "Betty1234",
+      "id": "457d4036-59e9-4589-8914-ef346956d1ca",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1586429886/qnhjlwop7pifhdmxpqbl.webp"
+    },
+    {
+      "firstName": "Luk",
+      "lastName": "Sc",
+      "email": "luk@kk.com",
+      "password": "Luk123456",
+      "id": "2548d010-f1d4-4c73-960e-bb56b4c96f3e",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1586728470/cbx0m6vmcigqwytempe9.jpg"
+    },
+    {
+      "firstName": "Joe",
+      "lastName": "Murphy",
+      "email": "jm@me.ie",
+      "password": "Secret1",
+      "id": "fa095897-e6f8-436d-afc7-5d02682276c9",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1586880328/uub1dykdhdwearkadatp.jpg"
+    },
+    {
+      "firstName": "Lukasz",
+      "lastName": "Sicha",
+      "email": "lukasz@gmail.com",
+      "password": "Lukasz1!",
+      "id": "79aca2d2-1a4a-4ff8-ac12-a4ce85d109f1",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1587660600/rtuiwbmrfmhuvtzktivk.jpg"
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Cowman",
+      "email": "quarantinegamesbutt@gmail.com",
+      "password": "DzraHigMo7GH",
+      "id": "7f1d2298-9265-4c2e-8532-96d8c19b4fa8",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1587848106/blrbsoyuzje9azvum5op.png"
+    },
+    {
+      "firstName": "Si",
+      "lastName": "Rc",
+      "email": "sr@gmail.com",
+      "password": "Secret1",
+      "id": "9537dc6d-3cbd-4bc7-a940-e5a53377267c",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1587916098/zxgp3qqyaf3p2atcvxdz.jpg"
+    },
+    {
+      "firstName": "Justin",
+      "lastName": "Brophy",
+      "email": "jb@yandex.com",
+      "password": "Secret1",
+      "id": "4be4d70e-db4b-48e3-9500-1c72c9472960",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1587976862/pu0xmqrzgkvskprp1hi9.jpg"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rb@gmail.com",
+      "password": "Secret1",
+      "id": "dacac5a8-a5c5-4698-bc6d-5865c592d692",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1587981992/uoxk6o4a9picbspiyfbk.jpg"
+    },
+    {
+      "firstName": "Ian",
+      "lastName": "Brophy",
+      "email": "ian@veri.ie",
+      "password": "Ian123",
+      "id": "d26268d6-96ff-4325-aa67-755ec79f2310",
+      "picture": "http://res.cloudinary.com/waterford-it/image/upload/v1600243531/qspojtd8weix9vfdlskl.jpg"
+    }
+  ]
+}

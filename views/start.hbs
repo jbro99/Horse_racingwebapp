@@ -1,0 +1,102 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <div id="mybackground">
+    <h1 class="ui header">Welcome to the Horse Racing App, {{fullname}}!
+    </h1>
+      
+      <p>
+        This racing app will allow users to create horse racing information.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+         <button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like it? <i class="thumbs up icon"></i>
+         </button>
+          <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+          </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+          In this App you we will be able add horse racing inforamtion (Sign up, Login,Create, Read, Update, and Delete) functionality to this app bases on the racing industry.
+        </p>  
+      </div>
+     
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+      <div class="ui divider"></div>
+<section>
+<div style="background-color:lightblue"<b><i><h1 class="ui center aligned header">The Horselist App now stores:</h1></i></b></div>
+<div>      
+<div class="ui three statistics">
+    <div class="ui medium statistic">
+        <div class="value">
+          <img  src="https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2Ftrack.png?v=1586950682129">
+          {{totalHorselists}}
+        </div>
+        <div class="label">
+            Racecourses
+        </div>
+    </div>
+    <div class="ui small statistic">
+        <div class="value">
+            <img src="https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2Fhorses.png?v=1586951201591">
+          {{totalNames}}
+        </div>
+        <div class="label">
+            HORSES
+        </div>
+    </div>
+  </div>
+  <div class="ui small statistic">
+        <div class="value">
+          {{averageHorses}}
+        </div>
+        <div class="label">
+            AVERAGE HORSES PER RACECOURSE
+        </div>
+    </div>
+  <div class="ui small statistic">
+        <div class="value">
+          
+          {{largestHorses}}
+        
+        </div>
+        <div class="label">
+            LARGEST RACECOURSE
+        </div>
+    </div>
+   <div class="ui small statistic">
+        <div class="value">
+         
+          {{smallestHorses}}
+        </div>
+        <div class="label">
+            SMALLEST RACECOURSE
+        </div>
+    </div>
+</div>
+  </div>
+  </div>
+  
+  <div class="ui column">
+    <div class="ui grid">
+      <div class=" ui medium images">
+        <br>
+        <img  src="https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2F4...jpg?v=1584117242679">
+        
+     
+        <img src="https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2F7.jpg?v=1584225793598">
+      {{totalHorselists}}
+      
+      
+      </div>
+ 
+    </div>
+  </div>
+  
+</section>

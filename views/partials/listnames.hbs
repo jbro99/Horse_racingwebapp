@@ -1,0 +1,65 @@
+{{#unless horselist.horses}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some race course information such as horse name, trainer, jockey and distance!</h3>
+{{/unless}}
+
+{{#if horselist.horses}}
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Nmae</th>
+      <th class="four wide">Trainer</th>
+      <th class="three wide">Jockey</th>
+      <th class="three wide">Distance</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each horselist.horses}}
+  //the action of this form is the root to update a horse
+    <form class = "ui form" action="/horselist/{{../horselist.id}}/updatename/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input placeholder="Name" type="text" size="30" name="name" autofocus required value = "{{capitalise name}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Trainer" type="text" size="30" name="trainer" required value = "{{capitalise trainer}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Jockey" type="text" name="jockey" required value = "{{capitalise jockey}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Distance" type="text" name="distance" required value = "{{distance}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/horselist/{{../horselist.id}}/deletename/{{id}}" class="ui icon button delname">
+          <i class="icon trash"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" onclick="getRating()">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/if}}

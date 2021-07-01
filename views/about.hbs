@@ -1,0 +1,29 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned segment">
+  <h2 class="ui header">
+    The Horse Racing top three Trainers:
+  </h2>
+
+  <div class="ui centered cards">
+
+      
+  {{#each developers}}
+      
+      {{> card}}
+  {{/each}}
+
+  </div>
+  <br>
+  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5671.379221914624!2d-9.000581287679415!3d53.298110943864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b914527fcc64b%3A0x50c7f0ffb860949f!2sGalway%20Races!5e0!3m2!1sen!2suk!4v1584302444017!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  
+  <section class="ui raised two column grid segment">
+  <section class="column">
+    {{> addmessage }}
+  </section>
+  <section class="column">
+    {{> listmessages }}
+  </section>
+</section>
+</section>

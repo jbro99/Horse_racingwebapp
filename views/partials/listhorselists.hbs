@@ -1,0 +1,23 @@
+<div class="ui centered cards">
+  {{#each horselists}}
+    <div class="ui card">
+      <div class="image">
+        <img src="{{picture}}" height = "10">
+      </div>
+      <div class="content">
+        <a class="header">{{ uppercase title}}</a>
+      </div>
+       <div class="metadata">
+          <span class="date">Created: {{formatDate date}}</span>
+        </div>
+      <div class="extra content">
+        <a href="/horselist/{{id}}" class="ui icon button">
+          <i class="icon folder open"></i>
+        </a>
+        <a href="/dashboard/deletehorselist/{{id}}" class="ui icon button">
+          <i class="icon trash"></i>
+        </a>
+      </div>
+    </div>
+  {{/each}}
+</div>

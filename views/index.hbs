@@ -1,0 +1,111 @@
+{{> welcomemenu }}
+
+<section class="ui center aligned middle aligned segment">
+  
+  <h2>
+    
+  <b><p> 
+    Welcome to the Horse racing APP
+    </p></b></h2>
+  <p> 
+    <i><button class="uiyellow button">Sign up</button> or <button class="uiyellow button">Log In</button>, to start to save your racecourses and horse information</i>
+  </p>
+    
+    <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+         <button class="ui green button" onclick="alert('Thanks! You gave us another like')">
+          Like it? <i class="thumbs up icon"></i>
+         </button>
+          <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+          </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+          In this App you we will be able add horse racing inforamtion (Sign Up, login, Create, Read, Update, and Delete) functionality to this app bases on the racing industry.
+        </p>  
+      </div>
+</section>
+
+<section class="ui seven column grid segment">
+<section class="ui center aligned middle aligned segment">
+  
+
+      <div id="readmore" class="ui message">
+        <p>
+          In this App you we will be able add horse racing inforamtion (Create, Read, Update, and Delete) functionality to this app bases on the racing industry.
+        </p>  
+      </div>
+ <h2><b><p> Your currents stats in the app:</p></b></h2>
+    
+   <div>
+     
+  </div>
+    <div class="ui two statistics">
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalUsers}}
+            <i class="black small users icon"></i>
+          </div>
+          <div class="label">
+            Users
+          </div>
+        </div> 
+      
+   <div class="ui huge statistic">
+          <div class="value">
+            {{messagesTotal}}
+           <i class="green small comments icon"></i>
+          </div>
+          <div class="label">
+           Messages/comments 
+          </div>
+        </div>
+      
+<div class="ui huge statistic">
+        <div class="value">
+            {{totalHorselists}}
+          <img  src="https://cdn.glitch.com/6e857af3-1bf0-462b-ae0b-1ad8c5c5127b%2Flimerick.png?v=1587645334866">
+          
+        </div>
+        <div class="label">
+            Total Racecourses
+        </div>
+</div>
+  <div class="ui huge statistic">
+        <div class="value">
+            {{totalHorses}}
+          <i class="brown small sticker mule icon"></i>
+        </div>
+        <div class="label">
+            Total Horses
+        </div>
+    </div>
+  <div class="ui huge statistic">
+        <div class="value">
+            {{mostHorses}}
+          
+          
+        </div>
+        <div class="label">
+            User with least amout of horses
+        </div>
+    </div>
+  
+  <div class="ui huge statistic">
+        <div class="value">
+            {{leastHorses}}
+          
+          
+        </div>
+        <div class="label">
+            User with most amout of horses
+        </div>
+    
+    </div>
+    </section> 
+  
+  
